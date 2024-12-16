@@ -5,7 +5,7 @@
 
 Console.WriteLine("Lütfen aşağıdaki bilgileri doldurunuz: ");
 Console.Write("T.C Kimlik Numaranız: ");
-var tc = Console.ReadLine();
+var tc = Console.ReadLine();  // tc ile herhangi bir sayisal islem yapmayacagim icin string olarak aldim
 
 Console.Write("Adınız: ");
 var name = Console.ReadLine();
@@ -20,7 +20,7 @@ Console.Write("Yaşınız: ");
 var age = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("İlk aldığınız ürünün fiyatı: ");
-var firstProductPrice = Convert.ToDouble(Console.ReadLine());
+var firstProductPrice = Convert.ToDouble(Console.ReadLine()); // Kullanici ondalikli bir sayi girebilir diye double aldim
 
 Console.Write("İkinci aldığınız ürünün fiyatı: ");
 var secondProductPrice = Convert.ToDouble(Console.ReadLine());
