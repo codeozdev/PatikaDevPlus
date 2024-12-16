@@ -34,7 +34,6 @@ var score = 0;
 
 Console.WriteLine("\n1 -> Dünyanın en yüksek dağı neresidir?");
 Console.WriteLine("a) Everest b) K2");
-Console.Write("Cevabınız: ");
 var asnwer = Console.ReadLine()?.Trim().ToLower();
 
 if (asnwer == "a")
@@ -61,7 +60,6 @@ else
 Console.WriteLine("\n2 -> Dünyanın en kalabalık şehri hangisidir?");
 Console.WriteLine("a) Tokyo");
 Console.WriteLine("b) Ankara");
-Console.Write("Cevabınız: ");
 var asnwer2 = Console.ReadLine()?.Trim().ToLower();
 
 if (asnwer == "a")
@@ -85,7 +83,6 @@ if (score < 2)
 Console.WriteLine("\n3 -> Türkiyenin en büyük gölü neresidir?");
 Console.WriteLine("a) Burdur");
 Console.WriteLine("b) Van");
-Console.Write("Cevabınız: ");
 var asnwer3 = Console.ReadLine()?.Trim().ToLower();
 
 if (asnwer3 == "b")
