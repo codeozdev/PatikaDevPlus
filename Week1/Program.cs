@@ -1,2 +1,1 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Console.WriteLine("Oguzhan Uguz \nFullstack Developer olma yolunda ilerleyebilmek adina Patika'dayim");
