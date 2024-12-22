@@ -62,7 +62,7 @@ Console.WriteLine("a) Tokyo");
 Console.WriteLine("b) Ankara");
 var asnwer2 = Console.ReadLine()?.Trim().ToLower();
 
-if (asnwer == "a")
+if (asnwer2 == "a")
 {
     Console.WriteLine("Tebrikler, doğru cevap!");
     score++;
