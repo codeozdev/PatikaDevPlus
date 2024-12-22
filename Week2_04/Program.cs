@@ -17,7 +17,7 @@ while (true)
     var kisiSayisi = Convert.ToInt32(Console.ReadLine());
 
 
-    var lokasyonBilgisi = lokasyon switch
+    var lokasyonBilgisi = lokasyon switch // C# 8.0
     {
         "bodrum" => "Bodrum'da deniz keyfi yapabilir, gece hayatına katılabilirsiniz.",
         "marmaris" => "Marmaris'te doğa yürüyüşleri ve tekne turları yapılabilir.",
