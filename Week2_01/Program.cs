@@ -9,7 +9,7 @@ Console.WriteLine("*************************************************************
 
 // 2 -> 1 ile 20 arasındaki sayıları konsol ekranına yazdırınız.
 
-for (var i = 1; i <= 20; i++)
+for (var i = 2; i < 20; i++)
 {
     Console.WriteLine(i);
 }
@@ -20,7 +20,7 @@ Console.WriteLine("*************************************************************
 // 3 -> 1 ile 20 arasındaki çift sayıları konsol ekranına yazdırınız.
 
 
-for (var i = 1; i <= 20; i++)
+for (var i = 2; i < 20; i++)
 {
     if (i % 2 == 0)
     {
@@ -34,7 +34,7 @@ Console.WriteLine("*************************************************************
 
 var sum = 0;
 
-for (var i = 50; i <= 150; i++)
+for (var i = 51; i < 150; i++)
 {
     sum += i;
 }
@@ -50,7 +50,7 @@ Console.WriteLine("*************************************************************
 var sumEven = 0;
 var sumOdd = 0;
 
-for (var i = 1; i <= 120; i++)
+for (var i = 2; i < 120; i++)
 {
     if (i % 2 == 0)
     {
