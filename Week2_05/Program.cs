@@ -34,9 +34,9 @@ int ParametreliMethod(int sayi1, int sayi2)
 
 // Parametre Alan ve Geriye Değer Döndürmeyen bir Metot
 
-Console.WriteLine($"Hosgeldiniz {FullName("Oguzhan", "Uguz")}");
+FullName("Oguzhan", "Uguz");
 
-string FullName(string firstName, string lastName)
+void FullName(string firstName, string lastName)
 {
-    return $"{firstName} {lastName}";
+    Console.WriteLine($"Hosgeldiniz {firstName} {lastName}");
 }
